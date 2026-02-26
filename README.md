@@ -9,6 +9,7 @@ This project builds a billing of quantities export pipeline from:
 - `rsrc/Piping_Extraction_Grouped.json`
 
 Which is exported from an Autodesk Revit Addin
+
 It:
 1. Groups by `SystemType + FamilyName`
 2. Generates multi-queries with a LangChain LLM (single batch call for all entities)
