@@ -2,10 +2,13 @@
 
 This project helps convert raw piping extraction data into a clean billing of quantities workbook that is easier for teams to review, validate, and hand over.
 
+<img width="686" height="462" alt="image" src="https://github.com/user-attachments/assets/df4ff6f0-fe58-476b-b52a-e03e0f36f72d" />
+
 ## Overview
 This project builds a billing of quantities export pipeline from:
 - `rsrc/Piping_Extraction_Grouped.json`
 
+Which is exported from an Autodesk Revit Addin
 It:
 1. Groups by `SystemType + FamilyName`
 2. Generates multi-queries with a LangChain LLM (single batch call for all entities)
